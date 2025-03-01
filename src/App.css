@@ -1,0 +1,41 @@
+*{
+  /* height: 100%; */
+  /* width: 100%; */
+  box-sizing: border-box;
+  background-color: #121212;
+  color: white;
+}
+
+.main{
+  min-height: 300px;
+  min-width: 300px;
+  border: white solid 1px;
+  padding: 10px;
+  /* background-color: #353131; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mbody{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+input{
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  color: black;
+  /* width: 200px; */
+  border-radius: 5px;
+}
+
+button{
+  color: white;
+  border-radius: 5px;
+  height: 2.5rem;
+  /* border: none; */
+  background-color: black;
+  width: 5rem;
+}
